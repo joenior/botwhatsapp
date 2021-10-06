@@ -1,5 +1,5 @@
 exports.menu = (prefix, i) => {
-    return `*INI WM AQULZZ*
+    return `*Whats up?*
 `
 }
 
@@ -10,20 +10,19 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, pendaftar, runtime, pushn
 ├≽ *Creator: ${ownerName}*
 ├≽ *Lib: Baileys v3.5.1*
 ├≽ *Prefix: 「 ${prefix} 」*
-├≽ *Total Fitur: Nggak tau brp, pakai apa yang ada aja*
+├≽ *Total Fitur: Banyak*
 ├≽ *Total Pengguna: ${pendaftar.length}*
 ├≽ *Tanggal :${tanggal}*
 ├≽ *Pukul :${jam}*
-├≽ *Runtime Bot*:
+├≽ *Waktu Berjalan*:
 ├≽ *${runtime}*
 ├────────────────────
-╞═══ 《 *Informasi Pengguna* 》 ═══
+╞═══ 《 *Info Pengguna* 》 ═══
 ├────────────────────
 ├≽ *Name* : *${pushname}*
 ├≽ *Status* : *${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
 ├≽ *Limit* : *${isPremium ? 'Unlimited' : `${sisalimit}/${limitCount}`}*
-├≽ *Limit Game* : *${isOwner ? 'Unlimited' : `${glimit}/${gcount}`}*
-├≽ *Expired Prem : ${isOwner ? '-' : isPremium ? expired : 'Not Premium'}*
+├≽ *Premium validity time* : ${isOwner ? '-' : isPremium ? expired : 'Not Premium'}*
 ├────────────────────
 ╞═══ 《 *Menu* 》 ═══
 ├────────────────────
@@ -31,23 +30,33 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, pendaftar, runtime, pushn
 ├≽ *${prefix}creatormenu*
 ├≽ *${prefix}sistemmenu*
 ├≽ *${prefix}gabutmenu*
-├≽ *${prefix}gamemenu*
 ├≽ *${prefix}downloadmenu*
 ├≽ *${prefix}randommenu*
 ├≽ *${prefix}toolsmenu*
 ├≽ *${prefix}othermenu*
 ├────────────────────
-├≽ _NB: Chat owner jika botnya_
-├≽ _tiba-tiba ga work._
-├≽ _Untuk author stickernya_
-├≽ _sementara masih belum bisa_
-├≽ _diganti_ :(
+├≽ _NB: Mohon chat *${prefix}owner jika bot_
+├≽ _tidak merespon lebih dari semenit._
+├────────────────────
+╞═══ 《 *Thanks to* 》 ═══
+├────────────────────
+├≽ *Xinz-Team*
+├≽ *Aqulzz*
+├≽ *Nafizz*
+├≽ *Y-DhyZx*
+├≽ *Ramlan ID*
+├≽ *X-MrG3P5*
+├≽ *Nanda*
+├≽ *Juwen*
+├≽ *Adiwajshing/Baileys*
+├≽ *Ijulhaxor*
+├≽ *Vtubers Gaming*
 ├────────────────────
 ╘═══ 《 *By ${ownerName}* 》 ═══`
 }
 
 exports.stickerMenu = (prefix, ownerName) => {
-    return `╒═══ 《 *STICKER MENU* 》 ═══
+    return `╒═══ 《 *Stickers Menu* 》 ═══
 ├────────────────────
 ├≽ *${prefix}sticker*
 ├≽ *${prefix}stickergif*
@@ -61,7 +70,7 @@ exports.stickerMenu = (prefix, ownerName) => {
 }
 
 exports.ownerMenu = (prefix, ownerName) => {
-    return `╒═══ 《 *CREATOR MENU* 》 ═══
+    return `╒═══ 《 *Owner Menu* 》 ═══
 ├────────────────────
 ├≽ *${prefix}addprem*
 ├≽ *${prefix}delprem*
@@ -85,7 +94,7 @@ exports.ownerMenu = (prefix, ownerName) => {
 }
 
 exports.groupMenu = (prefix, ownerName) => {
-    return `╒═══ 《 *GROUP MENU* 》 ═══
+    return `╒═══ 《 *Group Menu (set bot as admin)* 》 ═══
 ├────────────────────
 ├≽ *${prefix}afk*
 ├≽ *${prefix}infogrup*
@@ -112,7 +121,7 @@ exports.groupMenu = (prefix, ownerName) => {
 }
 
 exports.sistemMenu = (prefix, ownerName) => {
-    return `╒═══ 《 *SISTEM MENU* 》 ═══
+    return `╒═══ 《 *Sistem Menu* 》 ═══
 ├────────────────────
 ├≽ *${prefix}antilink*
 ├≽ *${prefix}antiwame*
@@ -124,7 +133,7 @@ exports.sistemMenu = (prefix, ownerName) => {
 }
 
 exports.gabutMenu = (prefix, ownerName) => {
-    return `╒═══ 《 *Gabut? Tanyain apa aja* 》 ═══
+    return `╒═══ 《 *Gabut? Tanyain bot aja* 》 ═══
 ├────────────────────
 ├≽ *${prefix}apakah*
 ├≽ *${prefix}bisakah*
@@ -137,8 +146,8 @@ exports.gabutMenu = (prefix, ownerName) => {
 ╘═══ 《 *By ${ownerName}* 》 ═══`
 }
 
-exports.gameMenu = (prefix, ownerName) => {
-    return `╒═══ 《 *GAME MENU* 》 ═══
+exports.gomeMenu = (prefix, ownerName) => {
+    return `╒═══ 《 *Disabled* 》 ═══
 ├────────────────────
 ├≽ *${prefix}tictactoe*
 ├≽ *${prefix}delttt*
@@ -325,7 +334,7 @@ exports.hontaiMenu = (prefix, ownerName) => {
 ├≽ *${prefix}blowjob*
 ├≽ *${prefix}kitsune*
 ├≽ *${prefix}yuri*
-├≽ *${prefix}boobs*
+├≽ *${prefix}bhoobs*
 ├≽ *${prefix}kuni*
 ├─────────────────────
 ╘═══ 《 *By ${ownerName}* 》 ═══`
