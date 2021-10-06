@@ -7,13 +7,13 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, pendaftar, runtime, pushn
     return `${ucapan.data.result} ${pushname}
 ╒═══ 《 *${botName}* 》 ═══
 ├────────────────────
-├≽ *Creator : ${ownerName}*
-├≽ *Lib : Baileys v3.5.1*
-├≽ *Prefix : 「 ${prefix} 」*
-├≽ *Total Fitur : Nggak tau brp, pakai apa yang ada aja*
-├≽ *Total Pengguna : ${pendaftar.length}*
-├≽ *Tanggal : ${tanggal}*
-├≽ *Pukul : ${jam}*
+├≽ *Creator: ${ownerName}*
+├≽ *Lib: Baileys v3.5.1*
+├≽ *Prefix: 「 ${prefix} 」*
+├≽ *Total Fitur: Nggak tau brp, pakai apa yang ada aja*
+├≽ *Total Pengguna: ${pendaftar.length}*
+├≽ *Tanggal :${tanggal}*
+├≽ *Pukul :${jam}*
 ├≽ *Runtime Bot*:
 ├≽ *${runtime}*
 ├────────────────────
@@ -37,7 +37,8 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, pendaftar, runtime, pushn
 ├≽ *${prefix}toolsmenu*
 ├≽ *${prefix}othermenu*
 ├────────────────────
-| _NB: Chat owner jika botnya tiba-tiba gk work_
+├≽_NB: Chat owner jika botnya_
+├>_tiba-tiba ga work_
 ├────────────────────
 ╘═══ 《 *By ${ownerName}* 》 ═══`
 }
