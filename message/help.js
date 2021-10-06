@@ -37,8 +37,11 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, pendaftar, runtime, pushn
 ├≽ *${prefix}toolsmenu*
 ├≽ *${prefix}othermenu*
 ├────────────────────
-├≽_NB: Chat owner jika botnya_
-├>_tiba-tiba ga work_
+├≽ _NB: Chat owner jika botnya_
+├≽ _tiba-tiba ga work._
+├≽ _Untuk author stickernya_
+├≽ _sementara masih belum bisa_
+├≽ _diganti_ :(
 ├────────────────────
 ╘═══ 《 *By ${ownerName}* 》 ═══`
 }
