@@ -1,5 +1,5 @@
 exports.menu = (prefix, i) => {
-    return `*Whats up?*
+    return `*Whats up*
 `
 }
 
@@ -7,9 +7,6 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, pendaftar, runtime, pushn
     return `${ucapan.data.result} ${pushname}
 ╒═══ 《 *${botName}* 》 ═══
 ├────────────────────
-├≽ *Creator: ${ownerName}*
-├≽ *Lib: Baileys v3.5.1*
-├≽ *Prefix: 「 ${prefix} 」*
 ├≽ *Total Fitur: Banyak*
 ├≽ *Total Pengguna: ${pendaftar.length}*
 ├≽ *Tanggal :${tanggal}*
