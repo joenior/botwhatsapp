@@ -7,11 +7,11 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, pendaftar, runtime, pushn
     return `${ucapan.data.result} ${pushname}
 ╒═══ 《 *${botName}* 》 ═══
 ├────────────────────
-├≽ *Total Fitur: Banyak*
+├≽ *Total Fitur: sedikit*
 ├≽ *Total Pengguna: ${pendaftar.length}*
 ├≽ *Tanggal :${tanggal}*
 ├≽ *Pukul :${jam}*
-├≽ *Waktu Berjalan*:
+├≽ *Bot sudah berjalan selama*:
 ├≽ *${runtime}*
 ├────────────────────
 ╞═══ 《 *Info Pengguna* 》 ═══
@@ -24,15 +24,12 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, pendaftar, runtime, pushn
 ╞═══ 《 *Menu* 》 ═══
 ├────────────────────
 ├≽ *${prefix}stickermenu*
-├≽ *${prefix}creatormenu*
 ├≽ *${prefix}sistemmenu*
 ├≽ *${prefix}gabutmenu*
 ├≽ *${prefix}downloadmenu*
-├≽ *${prefix}randommenu*
-├≽ *${prefix}toolsmenu*
 ├≽ *${prefix}othermenu*
 ├────────────────────
-├≽ _NB: Mohon chat *${prefix}owner jika bot_
+├≽ _NB: Mohon chat *${prefix}owner* jika bot_
 ├≽ _tidak merespon lebih dari semenit._
 ├────────────────────
 ╞═══ 《 *Thanks to* 》 ═══
@@ -188,7 +185,7 @@ exports.stoikMenu = (prefix, ownerName) => {
 ╘═══ 《 *By ${ownerName}* 》 ═══`
 }
 
-exports.randomMenu = (prefix, ownerName) => {
+exports.raodomMenu = (prefix, ownerName) => {
     return `╒═══ 《 *RANDOM MENU* 》 ═══
 ├────────────────────
 ├≽ *${prefix}quotes*
@@ -218,7 +215,7 @@ exports.omimeMenu = (prefix, ownerName) => {
 ╘═══ 《 *By ${ownerName}* 》 ═══`
 }
 
-exports.toolsMenu = (prefix, ownerName) => {
+exports.toplsMenu = (prefix, ownerName) => {
     return `╒═══ 《 *TOOLS MENU* 》 ═══
 ├────────────────────
 ├≽ *${prefix}nulis*
